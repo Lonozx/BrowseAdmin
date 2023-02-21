@@ -1,6 +1,13 @@
 import './cart.scss'
 
 export default function Cart(props){
+    const tickets =[
+        {
+            name: ' ',
+            officeNumber: 0,
+            description: ' ',
+        }
+    ]
    return(
     <div className="container">
         <div className="container__cart">

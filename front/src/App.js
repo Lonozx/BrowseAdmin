@@ -13,7 +13,7 @@ function App() {
     </div>
     <section className="ticketSection">
 
-    {/* <Cart title='Title#1' description='Default description'/> */}
+    <Cart title='Title#1' description='Default description'/>
     </section>
  <Footer/>
  </div>
