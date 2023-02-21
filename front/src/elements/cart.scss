@@ -4,7 +4,7 @@
     padding: 10px;
     &__cart{
         border: 1px solid;
-        border-radius: 20px;
+        // border-radius: 20px;
         width: 300px;
         min-height: 500px;
         padding: 10px;
@@ -17,10 +17,27 @@
 }
 .cart-deny{
     width: 100px;
+    background-color: #E37E7E;
     height: 50px;
+    border: 1px solid;
+    font-family: 'ArcadeClassic', sans-serif;
+    &:hover{
+        background-color: #e87474;
+        cursor: pointer;
+        
+    }
 }
 .cart-apply{
     width: 100px;
+    background-color: #E37E7E;
     height: 50px;
-    margin: 7px 60px;
+    position: absolute;
+    left: 200px;
+    // margin: 7px 60px;
+    border: 1px solid;
+    font-family: 'ArcadeClassic', sans-serif;
+    &:hover{
+        background-color: #e87474;
+        cursor: pointer;
+    }
 }

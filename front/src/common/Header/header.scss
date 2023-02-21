@@ -4,6 +4,7 @@
     width: 100%;
     height: 100px;
     background-color: #E37E7E;
+    border: 1px solid;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -22,6 +23,8 @@
         height: 90px;
         align-self: flex-end;
         padding: 4px;
+        border: 1px solid;
+        border-radius: 50px;
     }
     &__desc{
        margin: 10px;
