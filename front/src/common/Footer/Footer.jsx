@@ -4,7 +4,7 @@ export default function Footer(props){
     return(
         <footer className='footer'>
             <div className='container'>
-                <p>Footer is what you get...</p>
+                <p>Contact developer. Get him a punch!</p>
             </div>
         </footer>
     )
