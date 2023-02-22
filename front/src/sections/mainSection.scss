@@ -9,3 +9,26 @@
         cursor: pointer;
     }
 }
+
+.input-data{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    padding: 10px;
+}
+.ticket{
+    border: none;
+    border-bottom: 1px solid;
+    background: transparent;
+}
+.title-ticket{
+
+}
+.description-ticket{
+    height: 100px;
+    width: 500px;
+}
+
+.office-ticket{
+
+}
