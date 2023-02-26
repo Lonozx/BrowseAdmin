@@ -17,6 +17,7 @@ input{
 
 .before-we-start{
     display: flex;
+    flex-wrap: wrap;
     // flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -25,6 +26,6 @@ input{
 }
 
 .ticketSection{
-    
+    flex-wrap: wrap;
     display: flex;
 }

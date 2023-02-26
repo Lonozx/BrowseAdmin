@@ -2,7 +2,7 @@ import Header from "./common/Header/Header";
 import Footer from "./common/Footer/Footer";
 import Main from "./sections/Main";
 import Cart from "./elements/Cart";
-import {tickets} from "./elements/Cart";
+// import {tickets} from "./elements/Cart";
 import './main.scss'
 
 const styleSheet = {
@@ -10,11 +10,11 @@ const styleSheet = {
 }
 
 function App() {
-  const reactData = tickets.map((item)=>{
-    return  item.onWork == true ? <Cart title={item.title} description={item.description} officeNumber={item.officeNumber}/> 
-    : <Cart title={item.title} description={item.description} officeNumber={item.officeNumber} style={styleSheet}/>
+  // const reactData = tickets.map((item, index)=>{
+  //   return  item.onWork == true ? <Cart key={index} title={item.title} description={item.description} officeNumber={item.officeNumber}/> 
+  //   : <Cart title={item.title} description={item.description} officeNumber={item.officeNumber} className='complited'/>
     
-    })
+  //   })
   return(
     <div className="wrapper">
  <Header url='https://cdn-icons-png.flaticon.com/512/219/219983.png'/>
@@ -22,7 +22,9 @@ function App() {
       <Main/>
     </div>
     <section className="ticketSection">
-      {reactData}
+      
+    {/* {ReactIsFunny} */}
+      {/* {reactData} */}
     {/* <Cart title='Title#1' description='Default description'/> */}
     </section>
  <Footer/>
