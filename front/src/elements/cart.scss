@@ -41,3 +41,10 @@
         cursor: pointer;
     }
 }
+
+.active{
+    filter: brightness(1);
+}
+.innactive{
+    filter: brightness(0.5);
+}

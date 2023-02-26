@@ -53,10 +53,11 @@ export default function Main(props){
     <input type='text' value={title} onChange={handleTitle} className='ticket title-ticket' placeholder='Title please'></input>
     <input type='text' value={description} onChange={handleDescription} className='ticket description-ticket'placeholder='Here is your description'></input>
     <input type='number' value={office} onChange={handleOffice} className='ticket office-ticket' placeholder='# of office'></input>
-    </div>
+    
     <button onClick={handle} className="cart-create">Create a ticket!</button>
+    </div>
     {showCart && <Cart title={title} description={description} officeNumber={office}/>}
-    <pre>{JSON.stringify(data, null, 2)}</pre>  
+    {/* <pre>{JSON.stringify(data, null, 2)}</pre>   */}
     </>
    )
 }
